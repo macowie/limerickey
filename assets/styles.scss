@@ -1,0 +1,21 @@
+---
+---
+
+@import "bourbon/bourbon", "neat/neat", "base/base";
+@import "refills/type-slab-serif";
+$max-width: 1000px;
+
+
+body {
+  @include outer-container;
+  background-color: $base-background-color;
+}
+
+#main {
+  @include span-columns(12);
+}
+
+
+figure.highlight {
+  background-color: $dark-gray;
+}
